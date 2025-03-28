@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "news-aggregator-backend": {
+      "candid": "src/news-aggregator-backend/news-aggregator-backend.did",
+      "package": "news-aggregator-backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

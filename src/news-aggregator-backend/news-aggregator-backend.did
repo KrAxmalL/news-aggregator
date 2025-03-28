@@ -1,0 +1,18 @@
+type aggregated_news_response = record {
+  sources : vec record {
+    source_name : text;
+    response_code : opt nat;
+    error_message : opt text;
+    news : vec record {
+      title : text;
+      link : text;
+      description : text
+    };
+  };
+  error_message : opt text
+};
+
+service : {
+  "get_aggregated_news": () -> (aggregated_news_response);
+  "get_aggregated_news_limited": (nat8) -> (aggregated_news_response);
+}
