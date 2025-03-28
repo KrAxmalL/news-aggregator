@@ -13,7 +13,7 @@ Current implementation has the next specifics:
 - All users can get news from the same list of sources.
 - Only RSS XML feeds are supported because they have the same structure and are easy to implement.
 - The search through the APIs of the supported sources are not used because it usually requires obtaining a developer or other type of API key. Also, each API is very specific and requires a separate implementation to be supported.
-- The separate UI dis not implemented. For now, end users can use the Candid generated one or direct API calls.
+- The separate UI is not implemented. For now, end users can use the Candid generated one or direct API calls.
 
 ## How to access & use
 To access the Candid UI and perform the call to canister use this url: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=zxhp2-oyaaa-aaaam-qdjoa-cai <br>
