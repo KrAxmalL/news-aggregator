@@ -17,6 +17,7 @@ Current implementation has the next specifics:
 
 ## How to access & use
 To access the Candid UI and perform the call to canister use this url: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=zxhp2-oyaaa-aaaam-qdjoa-cai
+To check the information about canister use this url: https://dashboard.internetcomputer.org/canister/zxhp2-oyaaa-aaaam-qdjoa-cai
 The UI has 2 available methods:
 - ``get_aggregated_news`` - returns the list containing 3 news for each source. It is used if user does not want to specify the amount of news per source directly. You can think of it as a default value of news per source.
 - ``get_aggregated_news_limited`` with ``nat8`` parameter - returns the list containing the amount of news for each source provided by the user using the ``nat8`` parameter. If provided number is 0 - user will get no news and error notifying that the ``nat8`` parameter must be greater than 0.
